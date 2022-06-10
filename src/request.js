@@ -1,4 +1,4 @@
-const API_KEY = process.env.API_KEY;
+const API_KEY = '4c77ee075ef117b2ffd607222da77a06';
 
 const request = {
     fetchTrending: `/trending/all/week?api_key=${API_KEY}&lang=en-US`,
